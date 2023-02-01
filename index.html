@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Casio-Js82</title>
+    <link rel="stylesheet" href="./css/calc.css">
+    <script type="text/javascript" src="./js/calculator.js" charset="UTF-8"></script>
+</head>
+<body>
+    
+    <div class="calc">
+        <img class="humo" src="" id="humo" alt="">
+        <img class="humo2" src="" id="humo2" alt="">
+        
+        <input class="screen" type="text" id="screen" readonly>
+        <hr>
+        <p class="casio">CASIO<span class="fx">&nbsp;js-82</span></p>
+        <input class="boton" type="button" value="7" onclick="addToScreen('7')">
+        <input class="boton"type="button" value="8" onclick="addToScreen('8')">
+        <input class="boton"type="button" value="9" onclick="addToScreen('9')">
+        <input class="boton simbolo"type="button" value="+" onclick="addToScreen('+')">
+        <br>
+        <input class="boton"type="button" value="4" onclick="addToScreen('4')">
+        <input class="boton"type="button" value="5" onclick="addToScreen('5')">
+        <input class="boton"type="button" value="6" onclick="addToScreen('6')">
+        <input class="boton simbolo"type="button" value="-" onclick="addToScreen('-')">
+        <br>
+        <input class="boton"type="button" value="1" onclick="addToScreen('1')">
+        <input class="boton"type="button" value="2" onclick="addToScreen('2')">
+        <input class="boton"type="button" value="3" onclick="addToScreen('3')">
+        <input class="boton simbolo"type="button" value="*" onclick="addToScreen('*')">
+        <br>
+        <input class="boton"type="button" value="C" onclick="clearScreen()">
+        <input class="boton"type="button" value="0" onclick="addToScreen('0')">
+        <input class="boton"type="button" value="=" onclick="calculate()">
+        <input class="boton simbolo"type="button" value="/" onclick="addToScreen('/')">
+    </div>
+   
+
+
+</body>
+</html>
